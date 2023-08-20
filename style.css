@@ -1,0 +1,110 @@
+body {
+    align-items: center;
+    font-family: Arial, sans-serif; position: relative;
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url(Bg1.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 300px;
+  }
+   h2
+  {
+    color:white;
+    text-align: center;
+  }
+  label h1 {
+    color: rgb(189, 185, 185);
+    text-align: center;
+  }
+  #container {
+    margin-top: 50px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255,0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color:#232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.30);
+    border: 1px solid rgba(255,255,255,0.35);
+    flex-basis: 400px;
+    height: 400px;
+    padding: 40px;
+  }
+  input[type="number"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px 100px;
+    z-index: 100000;
+}
+header.sticky
+{
+    background: #525050;   
+    padding: 15px 100px;
+}
+header .Logo 
+{
+    position: relative;
+    font-weight: 600;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    transition: 0.6s;
+}
+header ul 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a 
+{
+    position: relative;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #FFF;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.2s;
+}
+footer
+{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(110, 107, 107);
+  color: white;
+  text-align: center;
+}
+footer li
+{
+  list-style: none;
+}

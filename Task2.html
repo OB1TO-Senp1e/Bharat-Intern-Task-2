@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a06ac13326.js" crossorigin="anonymous"></script>
+<title>Temperature Converter By Biswajit Dey</title>
+</head>
+<body>
+  <header id="section1">
+    <a href="#" class="Logo">Biswajit</a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">C &harr; F</a></li>
+        <li><a href="#">F &harr; K</a></li>
+    </ul>
+</header>
+    <div id="container">
+      <h2>Temperature Converter <i class="fas fa-temperature-high"></i></h2>
+      <br>
+      <label class="label"> 
+        <h1>Celsius</h1>
+        <br>
+        <input type="number" id="celsiusInput" placeholder="Enter Celsius">
+      </label>
+      <button onclick="convertToCelsius()">Convert to Celsius</button>
+  <br>
+  <br>
+     <label>
+      <h1>Fahrenheit </h1>
+      <input type="number" id="fahrenheitInput" placeholder="Enter Fahrenheit">
+    </label>
+      <button onclick="convertToFahrenheit()">Convert to Fahrenheit</button>
+    </div>
+    <div>
+    <script src="script.js"></script>
+    </div>
+    <script type="text/javascript">
+      window.addEventListener("scroll", function() {
+          var header=document.querySelector("header");
+          header.classList.toggle("sticky", window.scrollY > 0 );
+      })
+    </script>
+      <footer>
+        <div>
+          <ul>
+            <li>
+                <h4> This Website is Created By Biswajit Dey</h4>
+            </li>
+          </ul>
+      </div>
+      </footer>
+</body>
+</html>
